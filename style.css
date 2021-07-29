@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+    padding: 6rem 0;
+}
+.header-bg {
+    background-color: #264653;
+}
+
+
+.purchase-btn {
+    background-color: #E76F51;
+    padding: 9px 44px;
+    border: none;
+}
+.purchase-btn:hover {
+    background-color: #c5654d;
+}
+
+.color-gray{
+    filter: grayscale(1);
+}
+.font-color-red{
+    color: #E76F51;
+}
+.font-color-black{
+    color: #383838;
+}
+.hover-img {
+    overflow: hidden;
+    height: 388px;
+    position: relative;
+    bottom: 92px;
+}
+.hover-img img {
+    transition: transform .5s ease;
+  }
+  
+  .hover-img:hover img {
+    transform: scale(1.2);
+  }
